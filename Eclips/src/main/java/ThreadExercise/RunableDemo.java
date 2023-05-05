@@ -12,10 +12,8 @@ public class RunableDemo implements Runnable{
 				e.printStackTrace();
 			}
 			System.out.println("This is Demo *");			
-		}
-		
+		}		
 	}
-
 }
 
 
@@ -30,8 +28,6 @@ class RunableDemo1 implements Runnable{
 				e.printStackTrace();
 			}	
 			System.out.println("This is Demo #");
-		}
-		
+		}	
 	}
-
 }
