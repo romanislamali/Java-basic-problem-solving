@@ -1,9 +1,12 @@
+package CollectionsFramework;
+
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class CollectionsFramework {
+public class ArrayListExercise {
 
 	public static void main(String[] args) {
+
 		ArrayList<String> collection1 = new ArrayList();
 		
 		// add elements to collection1
@@ -47,7 +50,7 @@ public class CollectionsFramework {
 		c1 = (ArrayList<String>) collection1.clone();
 		c1.removeAll(collection2);
 		System.out.println(c1);
-		
+
 	}
 
 }
