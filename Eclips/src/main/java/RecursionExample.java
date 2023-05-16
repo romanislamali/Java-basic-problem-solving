@@ -2,11 +2,11 @@
 public class RecursionExample {
 
 	public static void main(String[] args) {
-		int result = sum(15);
-		System.out.println(result);
+		int result = sum(10);
+		System.out.println("Sum of under of value: "+result);
 		
-		int resultOfRange = sumOfRange(5, 10);
-		System.out.println(resultOfRange);
+		int resultOfRange = sumOfRange(0, 10);
+		System.out.println("Sum of the range: "+resultOfRange);
 	}
 	
 	//Sum of the input value
