@@ -1,6 +1,8 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class ArrayListExample {
@@ -19,6 +21,12 @@ public class ArrayListExample {
 			
 			System.out.println(itr.next());
 		}
+		
+		//sorting an arrayList
+		Collections.sort(l);
+		System.out.println(l);
+		
+		
 
 	}
 
